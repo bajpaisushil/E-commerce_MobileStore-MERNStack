@@ -82,7 +82,7 @@ router.get('/week-sales', isAdmin, async(req, res)=>{
         ]);
         res.status(200).send(income);
     } catch (error) {
-        
+        console.log(error);
     }
 })
 

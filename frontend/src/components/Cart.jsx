@@ -6,7 +6,7 @@ import {addToCart, clearCart, decreaseCart, getTotal, removeFromCart} from '../f
 import PayButton from "./PayButton";
 
 const Cart = () => {
-  const nav=useNavigate(); 
+  const nav=useNavigate();
   const dispatch=useDispatch();
   const auth=useSelector((state)=> state.auth);
   const cart = useSelector((state) => state.cart);
@@ -38,7 +38,7 @@ const Cart = () => {
                 width="20"
                 height="20"
                 fill="currentColor"
-                class="bi bi-arrow-left"
+                className="bi bi-arrow-left"
                 viewBox="0 0 16 16"
               >
                 <path
@@ -101,7 +101,7 @@ const Cart = () => {
                 width="20"
                 height="20"
                 fill="currentColor"
-                class="bi bi-arrow-left"
+                className="bi bi-arrow-left"
                 viewBox="0 0 16 16"
               >
                 <path

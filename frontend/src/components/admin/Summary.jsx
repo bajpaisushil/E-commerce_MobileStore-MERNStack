@@ -57,6 +57,7 @@ const Summary = () => {
       try {
         const res=await axios.get(`${url}/orders/stats`, setHeaders());
         res.data.sort(compare);
+        console.log('orders', res.data);
         setOrders(res.data);
         setOrdersPerc(((res.data[0].total-res.data[1].total)/res.data[1].total)*100);
       } catch (error) {

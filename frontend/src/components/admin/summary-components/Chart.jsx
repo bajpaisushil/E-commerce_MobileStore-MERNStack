@@ -30,7 +30,7 @@ const Chart = () => {
     async function fetchData() {
       setLoading(true);
       try {
-        const res = await axios.get(`${url}/order/week-sales`, setHeaders());
+        const res = await axios.get(`${url}/orders/week-sales`, setHeaders());
         res.data.sort(compare);
         const newData = res.data.map((item) => {
           const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
