@@ -1,5 +1,6 @@
 # E-commerce_MobileStore-MERNStack
-How to run on your local machine:
+Follow the steps mentioned below to run the Application on your own local machine:
+
 1. Download or clone the github repo onto your local machine.
 2. Open in a Code Editor like VS Code.
 3. Create a new terminal and split it into two, one for running frontend and the other for backend.
@@ -25,7 +26,8 @@ Enjoy the codes:
 4. Admin Facilities
 ![Screenshot 2023-08-26 233357](https://github.com/bajpaisushil/E-commerce_MobileStore-MERNStack/assets/111970311/7c7f7290-26a5-40b2-bba5-38060284c0b0)
 
-To Test and Checkout the cool Admin Facilities, Use the following credentials: 
+To Test and Checkout the cool Admin Functionalities, Use the following credentials:
+
 Email: test-admin@gmail.com
 Password: test-admin
 
